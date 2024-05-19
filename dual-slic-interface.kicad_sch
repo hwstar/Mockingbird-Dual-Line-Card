@@ -1,0 +1,66 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0b119267-fcdf-49cb-a580-71a46cd231f0")
+	(paper "A")
+	(title_block
+		(title "Dual SLIC interface")
+		(date "2024-04-25")
+		(rev "A")
+	)
+	(lib_symbols)
+	(text "For Rev B:\n\n1. Change R301, R402, R404 and R501 to 0603 package.\n2. Use non polar diode footprints for TVS and Thyristor parts."
+		(exclude_from_sim no)
+		(at 116.586 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0c765e6-5cf4-4600-a2a9-29e008dfff50")
+	)
+	(sheet
+		(at 177.8 50.8)
+		(size 25.4 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79b63f26-f2c7-4506-a268-edbd8ea5bbc8")
+		(property "Sheetname" "Top"
+			(at 177.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "top.kicad_sch"
+			(at 177.8 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dual-slic-interface"
+				(path "/0b119267-fcdf-49cb-a580-71a46cd231f0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
